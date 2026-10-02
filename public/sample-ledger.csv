@@ -1,0 +1,10 @@
+﻿Date,Amount,Description,Reference,Account
+2026-09-02,2500.00,مبيعات نقاط البيع,POS-101,Sales
+2026-09-02,-900.00,Supplier settlement,SUP-202,Payables
+2026-09-06,1000.00,تحويل بنكي,TR-303,Transfers
+2026-09-04,-300.00,تحويل راتب,SAL-404,Payroll
+2026-09-05,75.00,إيداع نقدي,,Cash
+2026-09-06,75.00,إيداع نقدي,,Cash
+2026-09-09,-80.00,Office supplies,DUP-808,Office
+2026-09-09,-80.00,Office supplies,DUP-808,Office
+2026-09-12,-120.00,Outstanding cheque,L-ONLY,Payables

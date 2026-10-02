@@ -1,0 +1,220 @@
+[
+  {
+    "name": "01-perfect",
+    "bankFile": "01-perfect-bank.csv",
+    "ledgerFile": "01-perfect-ledger.csv",
+    "auto": 2,
+    "suggestions": 0,
+    "unmatchedBank": 0,
+    "unmatchedLedger": 0,
+    "actions": []
+  },
+  {
+    "name": "02-one-day",
+    "bankFile": "02-one-day-bank.csv",
+    "ledgerFile": "02-one-day-ledger.csv",
+    "auto": 1,
+    "suggestions": 0,
+    "unmatchedBank": 0,
+    "unmatchedLedger": 0,
+    "actions": []
+  },
+  {
+    "name": "03-three-days",
+    "bankFile": "03-three-days-bank.csv",
+    "ledgerFile": "03-three-days-ledger.csv",
+    "auto": 1,
+    "suggestions": 0,
+    "unmatchedBank": 0,
+    "unmatchedLedger": 0,
+    "actions": []
+  },
+  {
+    "name": "04-outside-window",
+    "bankFile": "04-outside-window-bank.csv",
+    "ledgerFile": "04-outside-window-ledger.csv",
+    "auto": 0,
+    "suggestions": 0,
+    "unmatchedBank": 1,
+    "unmatchedLedger": 1,
+    "actions": []
+  },
+  {
+    "name": "05-different-transaction",
+    "bankFile": "05-different-transaction-bank.csv",
+    "ledgerFile": "05-different-transaction-ledger.csv",
+    "auto": 0,
+    "suggestions": 1,
+    "unmatchedBank": 1,
+    "unmatchedLedger": 1,
+    "actions": []
+  },
+  {
+    "name": "06-ambiguous-amount",
+    "bankFile": "06-ambiguous-amount-bank.csv",
+    "ledgerFile": "06-ambiguous-amount-ledger.csv",
+    "auto": 0,
+    "suggestions": 2,
+    "unmatchedBank": 1,
+    "unmatchedLedger": 2,
+    "actions": []
+  },
+  {
+    "name": "07-exact-reference",
+    "bankFile": "07-exact-reference-bank.csv",
+    "ledgerFile": "07-exact-reference-ledger.csv",
+    "auto": 1,
+    "suggestions": 0,
+    "unmatchedBank": 0,
+    "unmatchedLedger": 0,
+    "actions": []
+  },
+  {
+    "name": "08-similar-description",
+    "bankFile": "08-similar-description-bank.csv",
+    "ledgerFile": "08-similar-description-ledger.csv",
+    "auto": 1,
+    "suggestions": 0,
+    "unmatchedBank": 0,
+    "unmatchedLedger": 0,
+    "actions": []
+  },
+  {
+    "name": "09-amount-mismatch",
+    "bankFile": "09-amount-mismatch-bank.csv",
+    "ledgerFile": "09-amount-mismatch-ledger.csv",
+    "auto": 0,
+    "suggestions": 0,
+    "unmatchedBank": 1,
+    "unmatchedLedger": 1,
+    "actions": []
+  },
+  {
+    "name": "10-duplicate-bank",
+    "bankFile": "10-duplicate-bank-bank.csv",
+    "ledgerFile": "10-duplicate-bank-ledger.csv",
+    "auto": 0,
+    "suggestions": 2,
+    "unmatchedBank": 2,
+    "unmatchedLedger": 1,
+    "actions": []
+  },
+  {
+    "name": "11-duplicate-ledger",
+    "bankFile": "11-duplicate-ledger-bank.csv",
+    "ledgerFile": "11-duplicate-ledger-ledger.csv",
+    "auto": 0,
+    "suggestions": 2,
+    "unmatchedBank": 1,
+    "unmatchedLedger": 2,
+    "actions": []
+  },
+  {
+    "name": "12-missing-fields",
+    "bankFile": "12-missing-fields-bank.csv",
+    "ledgerFile": "12-missing-fields-ledger.csv",
+    "auto": 0,
+    "suggestions": 0,
+    "unmatchedBank": 2,
+    "unmatchedLedger": 1,
+    "actions": []
+  },
+  {
+    "name": "13-invalid-values",
+    "bankFile": "13-invalid-values-bank.csv",
+    "ledgerFile": "13-invalid-values-ledger.csv",
+    "auto": 0,
+    "suggestions": 0,
+    "unmatchedBank": 2,
+    "unmatchedLedger": 1,
+    "actions": []
+  },
+  {
+    "name": "14-arabic",
+    "bankFile": "14-arabic-bank.csv",
+    "ledgerFile": "14-arabic-ledger.csv",
+    "auto": 1,
+    "suggestions": 0,
+    "unmatchedBank": 0,
+    "unmatchedLedger": 0,
+    "actions": []
+  },
+  {
+    "name": "15-quoted-newline",
+    "bankFile": "15-quoted-newline-bank.csv",
+    "ledgerFile": "15-quoted-newline-ledger.csv",
+    "auto": 1,
+    "suggestions": 0,
+    "unmatchedBank": 0,
+    "unmatchedLedger": 0,
+    "actions": []
+  },
+  {
+    "name": "16-manual-match",
+    "bankFile": "16-manual-match-bank.csv",
+    "ledgerFile": "16-manual-match-ledger.csv",
+    "auto": 0,
+    "suggestions": 0,
+    "unmatchedBank": 1,
+    "unmatchedLedger": 1,
+    "actions": [
+      {
+        "type": "manual",
+        "bankRow": 2,
+        "ledgerRow": 2
+      }
+    ]
+  },
+  {
+    "name": "17-undo",
+    "bankFile": "17-undo-bank.csv",
+    "ledgerFile": "17-undo-ledger.csv",
+    "auto": 1,
+    "suggestions": 0,
+    "unmatchedBank": 0,
+    "unmatchedLedger": 0,
+    "actions": [
+      {
+        "type": "undo",
+        "bankRow": 2,
+        "ledgerRow": 2
+      }
+    ]
+  },
+  {
+    "name": "18-one-to-one",
+    "bankFile": "18-one-to-one-bank.csv",
+    "ledgerFile": "18-one-to-one-ledger.csv",
+    "auto": 1,
+    "suggestions": 0,
+    "unmatchedBank": 0,
+    "unmatchedLedger": 1,
+    "actions": [
+      {
+        "type": "blocked-manual",
+        "bankRow": 2,
+        "ledgerRow": 3
+      }
+    ]
+  },
+  {
+    "name": "19-debit-credit",
+    "bankFile": "19-debit-credit-bank.csv",
+    "ledgerFile": "19-debit-credit-ledger.csv",
+    "auto": 2,
+    "suggestions": 0,
+    "unmatchedBank": 0,
+    "unmatchedLedger": 0,
+    "actions": []
+  },
+  {
+    "name": "20-signed-rounding",
+    "bankFile": "20-signed-rounding-bank.csv",
+    "ledgerFile": "20-signed-rounding-ledger.csv",
+    "auto": 2,
+    "suggestions": 0,
+    "unmatchedBank": 0,
+    "unmatchedLedger": 0,
+    "actions": []
+  }
+]

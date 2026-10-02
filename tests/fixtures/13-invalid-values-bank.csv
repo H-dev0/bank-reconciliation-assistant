@@ -1,0 +1,3 @@
+Date,Amount,Description,Reference
+2026-02-30,100,Bad date,
+2026-09-01,NaN,Bad amount,
